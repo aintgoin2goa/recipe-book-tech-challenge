@@ -12,3 +12,5 @@ app.get('/recipes/:id', viewRecipe);
 app.listen(port);
 console.log(`listening on port ${port}`);
 
+module.exports = app;
+
