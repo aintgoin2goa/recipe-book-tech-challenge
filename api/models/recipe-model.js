@@ -1,5 +1,5 @@
-const data = require('../data/recipes.json');
 const IngredientsModel = require('./ingredient-model');
+const fetchData = require('../data/fetch-data');
 
 class RecipeModel {
     constructor(data){
@@ -11,6 +11,7 @@ class RecipeModel {
     };
 
     static find(id) {
+        const data = fetchData();
         const recipeData = data.recipes.find(r => r.id === id);
         if (!recipeData) {
             throw new Error(`Could not find recipe with id ${id}`);
@@ -20,6 +21,7 @@ class RecipeModel {
     }
 
     static all() {
+        const data = fetchData();
         return data.recipes.map(r => new RecipeModel(r));
     }
 

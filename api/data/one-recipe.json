@@ -1,0 +1,15 @@
+{
+    "recipes": [
+        {
+            "id": "lemon-chicken",
+            "name": "Lemon Chicken",
+            "imageUrl": "http://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/lemonchicken_11654_16x9.jpg",
+            "ingredients": [
+                "Chicken",
+                "Lemon",
+                "Thyme"
+            ],
+            "cookingTime": "30 minutes"
+        }
+    ]
+}
