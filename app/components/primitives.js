@@ -39,6 +39,15 @@ export const Title = styled.h1`
     padding: 0.5em;
 `;
 
+export const H2 = styled.h2`
+    font-size: ${H2_SIZE};
+    margin: 0;
+`;
+
+export const SummaryText = styled.p`
+    margin: 0;
+`;
+
 export const ListContainer = styled.div`
     display: grid;
     grid-template-columns: auto auto;

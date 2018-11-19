@@ -2,11 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import { Card, StyledLink, Label } from '../primitives';
+import { Card, StyledLink, Label, H2, SummaryText } from '../primitives';
 
 const RecipeSummary =  ({
     id,
     name,
+    cookingTime,
+    ingredients,
     image,
 }) => {
     const bgImage = `url('${image}')`;
@@ -14,7 +16,11 @@ const RecipeSummary =  ({
     return (
         <Card style={{backgroundImage: bgImage}}>
             <StyledLink to={url}>
-                <Label>{name}</Label>
+                <Label>
+                    <H2>{name}</H2>
+                    <SummaryText>🕐 {cookingTime} <br />
+                    {ingredients.join(', ')}</SummaryText>
+                </Label>
             </StyledLink>
         </Card>
     )
