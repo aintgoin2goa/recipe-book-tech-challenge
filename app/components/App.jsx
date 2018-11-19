@@ -4,17 +4,15 @@ import { Route, BrowserRouter as Router, browserHistory } from 'react-router-dom
 
 import RecipeList from './recipe-list/RecipeList';
 import RecipeDetail from './recipe-detail/RecipeDetail';
+import { Title, Body } from './primitives';
 
-const Title = styled.h1`
-    font-size: 28px;
-    color: red;
-`;
 
 export default class App extends React.Component {
     render(){
         return (
             <Router>
                 <React.Fragment>
+                    <Body />
                     <Title>Recipe Book</Title>
                     <Route path="/" exact component={RecipeList} />
                     <Route path="/recipe/:id" component={RecipeDetail} />

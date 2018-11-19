@@ -1,34 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
 import { observer, inject } from 'mobx-react';
 
-const Layout = styled.div`
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 80px auto;
-    grid-template-areas: 
-        "header header"
-        "...... text";
-    background-size: cover;
-    height: 90vh;
-`;
+import {
+    RecipeDetailLayout,
+    RecipeText,
+    RecipeHeader
+} from '../primitives';
 
-const Header = styled.h1`
-    font-size: 2em;
-    color: #00536C;
-    grid-area: header;
-    background-color: rgba(255,255,255,0.8);
-    margin: 0;
-    padding: 0.5em;
-`;
-
-const Text = styled.div`
-   grid-area: text;
-   background-color: rgba(255,255,255,0.8);
-   padding: 0.5em;
-`;
-
-const RecipeText = ({cookingTime, ingredients}) => (
+const RecipeTextContent = ({cookingTime, ingredients}) => (
     <React.Fragment>
         <p><b>Cooking Time: </b>{cookingTime}</p>
         <h4>Ingredients</h4>
@@ -58,16 +37,13 @@ export default class RecipeDetail extends React.Component {
        
         const bgImage = `url('${image}')`;
 
-        
         return (
-            <React.Fragment>
-                <Layout style={{backgroundImage:bgImage}}>
-                    <Header>{name}</Header>
-                <Text>
-                    <RecipeText cookingTime={cookingTime} ingredients={ingredients} />
-                </Text>
-                </Layout>
-            </React.Fragment>
+            <RecipeDetailLayout style={{backgroundImage:bgImage}}>
+                <RecipeHeader>{name}</RecipeHeader>
+                <RecipeText>
+                    <RecipeTextContent cookingTime={cookingTime} ingredients={ingredients} />
+                </RecipeText>
+            </RecipeDetailLayout>
         )
     }
 }
