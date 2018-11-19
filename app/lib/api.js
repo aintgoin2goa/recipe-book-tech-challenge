@@ -27,3 +27,7 @@ const performApiRequest = endpoint => () => {
 }
 
 export const fetchRecipeList = performApiRequest('/recipes');
+export const fetchRecipe = id => {
+    const endpoint = `/recipes/${id}`;
+    return performApiRequest(endpoint)();
+}
