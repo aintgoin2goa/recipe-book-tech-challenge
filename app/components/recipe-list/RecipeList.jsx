@@ -1,5 +1,5 @@
 import React from 'react';
-import {observer} from 'mobx-react';
+import {observer, inject} from 'mobx-react';
 import styled from 'styled-components';
 
 import RecipeSummary from '../recipe-summary/RecipeSummary';
@@ -18,12 +18,17 @@ const ListContainer = styled.div`
     }
 `;
 
+@inject('recipeList','recipe', 'router')
 @observer
 export default class RecipeList extends React.Component {
+    componentDidMount(){
+        this.props.recipeList.fetchRecipes();
+    }
+
     render() {
         return (
             <ListContainer>
-                {this.props.store.recipes.map(r => <RecipeSummary key={r.id} {...r} />)}
+                {this.props.recipeList.recipes.map(r => <RecipeSummary key={r.id} {...r} />)}
             </ListContainer>
         )
     }

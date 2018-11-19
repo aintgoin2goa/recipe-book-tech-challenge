@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Card = styled.div`
     box-shadow: 10px 10px 23px -6px rgba(0,0,0,0.75);
@@ -16,7 +17,7 @@ const Card = styled.div`
     }
 `;
 
-const Link = styled.a`
+const StyledLink = styled(Link)`
     position:absolute;
     top: 0;
     left: 0;
@@ -43,12 +44,12 @@ const RecipeSummary =  ({
     image,
 }) => {
     const bgImage = `url('${image}')`;
-    const url = `/${id}`;
+    const url = `recipe/${id}`;
     return (
         <Card style={{backgroundImage: bgImage}}>
-            <Link href={url}>
+            <StyledLink to={url}>
                 <Label>{name}</Label>
-            </Link>
+            </StyledLink>
         </Card>
     )
 };
