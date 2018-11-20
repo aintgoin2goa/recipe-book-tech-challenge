@@ -1,5 +1,5 @@
-import {from} from 'rxjs';
-import {timeout, retry} from 'rxjs/operators';
+import {from, of} from 'rxjs';
+import {timeout, retry, mergeMap} from 'rxjs/operators';
 
 import config from '../config/config';
 
@@ -8,22 +8,23 @@ const getApiUrl = endpoint =>
     `${config.apiHost}${endpoint}`;
 
 const performFetch = url =>
-    fetch(url)
+    from(fetch(url)
         .then(response => {
-            if (!response.ok) {
-                throw new Error(`${url} returned ${response.status} ${response.statusText}`);
+            if(!response.ok) {
+                throw new Error(`Fetch Error.  Recieved ${response.status} from ${url}`);
             }
 
             return response.json();
-        })
+        }));
 
 const performApiRequest = endpoint => () => {
     const url = getApiUrl(endpoint);
-    const promise = performFetch(url);
-    return from(promise).pipe(
-        timeout(3000),
-        retry(3)
-    );
+    return of(url).pipe(
+        mergeMap(performFetch),
+        retry(2),
+        timeout(3000)
+    )
+        
 }
 
 export const fetchRecipeList = performApiRequest('/recipes');
