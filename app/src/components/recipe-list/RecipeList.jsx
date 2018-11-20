@@ -12,7 +12,7 @@ const NoRecipes = () => (
 )
 
 
-@inject('recipeList','recipe', 'router')
+@inject('recipeList')
 @observer
 export default class RecipeList extends React.Component {
     componentDidMount(){

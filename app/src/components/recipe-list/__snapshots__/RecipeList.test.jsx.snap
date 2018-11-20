@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should render a list of recipes 1`] = `
+<div
+  className="sc-ifAKCX hSsEoE"
+>
+  <div
+    className="sc-EHOje goAuOW"
+    style={
+      Object {
+        "backgroundImage": "url('http://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/lemonchicken_11654_16x9.jpg')",
+      }
+    }
+  >
+    <a
+      className="sc-bZQynM kBuUpE"
+      href="/recipe/lemon-chicken"
+      onClick={[Function]}
+    >
+      <span
+        className="sc-gzVnrw cjozps"
+      >
+        <h2
+          className="sc-bwzfXH bhIhtX"
+        >
+          Lemon Chicken
+        </h2>
+        <p
+          className="sc-htpNat dNVVyN"
+        >
+          🕐 
+          30 minutes
+           
+          <br />
+          Chicken Breasts, Lemon, Thyme
+        </p>
+      </span>
+    </a>
+  </div>
+  <div
+    className="sc-EHOje goAuOW"
+    style={
+      Object {
+        "backgroundImage": "url('http://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/beefstroganoffwithsa_89439_16x9.jpg')",
+      }
+    }
+  >
+    <a
+      className="sc-bZQynM kBuUpE"
+      href="/recipe/beef-stroganoff"
+      onClick={[Function]}
+    >
+      <span
+        className="sc-gzVnrw cjozps"
+      >
+        <h2
+          className="sc-bwzfXH bhIhtX"
+        >
+          Beef Stroganoff
+        </h2>
+        <p
+          className="sc-htpNat dNVVyN"
+        >
+          🕐 
+          30 minutes
+           
+          <br />
+          Beef, Mustard, Mushrooms
+        </p>
+      </span>
+    </a>
+  </div>
+  <div
+    className="sc-EHOje goAuOW"
+    style={
+      Object {
+        "backgroundImage": "url('http://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/chickencaesarsalad_84099_16x9.jpg')",
+      }
+    }
+  >
+    <a
+      className="sc-bZQynM kBuUpE"
+      href="/recipe/chicken-ceasar-salad"
+      onClick={[Function]}
+    >
+      <span
+        className="sc-gzVnrw cjozps"
+      >
+        <h2
+          className="sc-bwzfXH bhIhtX"
+        >
+          Chicken Caesar Salad
+        </h2>
+        <p
+          className="sc-htpNat dNVVyN"
+        >
+          🕐 
+          25 minutes
+           
+          <br />
+          Lettuce, Chicken, Parmesan, Croutons
+        </p>
+      </span>
+    </a>
+  </div>
+</div>
+`;
