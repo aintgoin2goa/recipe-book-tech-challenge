@@ -1,21 +1,23 @@
 import React from 'react';
 import { observer, inject } from 'mobx-react';
 
+import RecipeTextContent from './RecipeTextContent';
+
 import {
     RecipeDetailLayout,
     RecipeText,
     RecipeHeader
 } from '../primitives';
 
-const RecipeTextContent = ({cookingTime, ingredients}) => (
-    <React.Fragment>
-        <p><b>Cooking Time: </b>{cookingTime}</p>
-        <h4>Ingredients</h4>
-        <ul>
-            {ingredients.map((ingredient, index) => (<li key={index}>{ingredient}</li>))}
-        </ul>
-    </React.Fragment>
-)
+const RecipeNotFound = () => {
+    const message = "Sorry, this recipe doesn't exist or may have been removed";
+    return (
+        <RecipeDetailLayout>
+            <RecipeHeader>{message}</RecipeHeader>
+        </RecipeDetailLayout>
+    )
+}
+
 
 @inject('recipe', 'router')
 @observer
@@ -34,6 +36,13 @@ export default class RecipeDetail extends React.Component {
             cookingTime,
             ingredients,
         } = this.props.recipe;
+
+
+        if (!this.props.recipe.id) {
+            return (
+                <RecipeNotFound />
+            )
+        }
        
         const bgImage = `url('${image}')`;
 

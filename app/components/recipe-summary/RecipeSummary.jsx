@@ -18,8 +18,10 @@ const RecipeSummary =  ({
             <StyledLink to={url}>
                 <Label>
                     <H2>{name}</H2>
-                    <SummaryText>🕐 {cookingTime} <br />
-                    {ingredients.join(', ')}</SummaryText>
+                    <SummaryText>
+                        🕐 {cookingTime} <br />
+                        {ingredients.map(i => i.ingredient).join(', ')}
+                    </SummaryText>
                 </Label>
             </StyledLink>
         </Card>
