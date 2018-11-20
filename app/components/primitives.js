@@ -18,6 +18,11 @@ import {
     BASE_FONT_SIZE,
 } from '../styles/typography';
 
+import {
+    TEXT_PADDING,
+    LIST_SPACING,
+} from '../styles/measurements';
+
 export const Body = createGlobalStyle`
     html, body{
         margin: 0;
@@ -36,7 +41,7 @@ export const Title = styled.h1`
     color: ${HEADING_COLOR};
     background-color: ${HEADING_BG};
     margin: 0;
-    padding: 0.5em;
+    padding: ${TEXT_PADDING};
 `;
 
 export const H2 = styled.h2`
@@ -48,11 +53,17 @@ export const SummaryText = styled.p`
     margin: 0;
 `;
 
+export const NoRecipesText = styled.p`
+    font-size: ${H1_SIZE};
+    color: ${HIGHLIGHT_COLOR};
+    padding: ${TEXT_PADDING};
+`;
+
 export const ListContainer = styled.div`
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 10px;
-    margin-top: 10px;
+    grid-gap: ${LIST_SPACING};
+    margin: ${LIST_SPACING};
 
     @media only screen and (min-width:600px) {
         grid-template-columns: auto auto auto;
@@ -92,7 +103,6 @@ export const Label = styled.span`
     padding: 1em;
     width: 100%;
     background-color: ${TEXT_BG};
-    font-size: 16px;
     position:absolute;
     left: 0;
     bottom: 0;
@@ -112,15 +122,15 @@ export const RecipeDetailLayout = styled.div`
 
 export const RecipeHeader = styled.h1`
     font-size: 2em;
-    color: ${HEADING_BG};
+    color: ${TEXT_COLOR};
     grid-area: header;
     background-color: ${TEXT_BG};
     margin: 0;
-    padding: 0.5em;
+    padding: ${TEXT_PADDING};
 `;
 
 export const RecipeText = styled.div`
    grid-area: text;
    background-color: ${TEXT_BG};
-   padding: 0.5em;
+   padding: ${TEXT_PADDING};
 `;
