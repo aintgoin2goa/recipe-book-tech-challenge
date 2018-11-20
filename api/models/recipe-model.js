@@ -1,4 +1,4 @@
-const IngredientsModel = require('./ingredient-model');
+const IngredientsModel = require('./ingredients-model');
 const fetchData = require('../data/fetch-data');
 
 class RecipeModel {

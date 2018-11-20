@@ -2,7 +2,7 @@ const { expect } = require('chai');
 
 const data = require('../data/recipes.json');
 const RecipeModel = require('./recipe-model');
-const IngredientsModel = require('./ingredient-model');
+const IngredientsModel = require('./ingredients-model');
 
 describe('RecipeModel', () => {
     it('should create a new model from data', () => {
@@ -29,7 +29,23 @@ describe('RecipeModel', () => {
             name: model.name,
             image: model.image,
             cookingTime: model.cookingTime,
-            ingredients: item.ingredients,
+            ingredients: [
+                {
+                    "ingredient": "Chicken Breasts",
+                    "measurement": " x",
+                    "quantity": 4
+                },
+                {
+                    "ingredient": "Lemon",
+                    "measurement": " x",
+                    "quantity": 1
+                },
+                {
+                    "ingredient": "Thyme",
+                    "measurement": " tsp",
+                    "quantity": 1
+                }
+            ]
         }
         expect(json).to.deep.equal(expected);
     });
