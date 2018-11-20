@@ -2,9 +2,9 @@
     "presets": [
         [
             "env",
-            { "modules": false}
+            { "modules": "commonjs"}
         ],
-        "react"
+        ["react"]
     ],
     "plugins": [
         "transform-decorators-legacy",

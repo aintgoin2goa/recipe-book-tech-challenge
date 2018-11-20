@@ -15,9 +15,12 @@ run-app:
 test-api:
 	cd api && npm test
 
+test-app:
+	cd app && npm test
+
 install: install-api install-app
 
 run:
 	make -j run-app run-api
 
-test: test-api
+test: test-api test-app
