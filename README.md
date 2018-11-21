@@ -1,59 +1,19 @@
 # Technical Challenge
 
-Below is a small technical challenge which will be submitted to the BBC account development team.
+There are 2 folders, `api` for the backend and `app` for the frontend, each is it's own npm package.  I've included a Makefile to tie the 2 together, but you can also run commands inside each folder direct from the package.json.
 
-We really value your time so **please don't spend more than 3 hours** on this task.
+## Commands
+* `make install` Install dependencies for both packages
+* `make test` Runs all tests
+* `make run` Runs the api on one port and uses parcel bundler to set up a dev server on port 1234
 
-We prefer **quality over quantity**.
+In order to view the app with the different data sets (no recipes and one recipe):
+`export DATASOURCE=noRecipes` or `oneRecipe` before `make run`
 
-Submit your challenge with one or more *well implemented features* rather than rushing with partial implementations of them all.
+## Notes
 
-Your application will also be used during the face to face interview when we'll ask you to add another feature. We don't like to surprise you with code you've not seen before.
-
-## The task
-
-The application is a recipe website. Your task is to implement one or more features from the list below. The `features` folder contains the behavioural specifications of the
-application to be built. Start by reading through these feature files, they should give you a sense of how the application will work.
-
-Use the provided `recipes.json` file as the source of your data.
-
-### Sugggested features
-
-All of the user requirements are in the `features` folder. Here's a suggested list of the order in which you could look at them:
-
-1. Recipes list
-2. Display a single recipe page
-3. Filter recipes
-4. Star a recipe
-5. Pagination
-
-_Remember, you don't have to implement them all!_
-
-## What we expect
-
-The role you're applying for is a full-stack JavaScript developer so we'd like to see the following:
-
-* a `Node.js` server using any framework to serve your data
-* a simple user interface using either vanilla JavaScript or the framework of your choice
-* a small README detailing anything we need to know.
-
-## What we don't expect
-
-We know this is **not a production application**. Assume in-memory solutions rather than relying on external data stores.
-
-These features shouldn't be the focus of your implementation:
-
-* **authentication** - assume there is 1 user and they can access their account
-* **database persistence** - use the provided [JSON data source](recipes.json) for your recipes source and store everything else in memory
-* **styling** - it doesn't have to look pretty
-* **complex tooling** - if you want to use your standard tool set up then that's great, but don't spend hours setting up gulp/grunt/webpack configurations and scripts
-* **deployment** - just make it run locally with minimal setup.
-
-## Submitting your task
-
-Thanks for taking the time to show your development experience by taking our technical challenge. We'd appreciate it if you could submit it as follows:
-
-* Check your source code into a public GitHub, GitLab or BitBucket repository and email the repository location to the contact email provided; OR
-* Create an archive (zip, tar) and send the archive via email.
-
-**Please make sure that your application is easy to run!**
+* I'm using css grid for layout and fetch for http requests so this app won't work on old browsers - there are fallbacks and polyfills I could use.
+* I appreciate that, using mobx + rxjs + react for an app this simple is overkill.  I wanted to build something with a properlu thought-out achitecture to make it easer to add extra features, as I understand I will be doing that if I get through to the interview
+* For the detail page I am  making a request for data I already have as there is just mock json data available.  I have done it this way as, if this was a real app, it is likely that there would be more data returned from this endpoint, such as the recipe instructions.
+* Also, the app attempts to refresh the data on every single page load.  The api returns a 304 Not Modified so brower cache is used, but this could be improved so that the request is not even made
+* There's an obvious lack of tests, particuarly for the app.  I didn't have time to test everything, so I've written some tests for a broad range of different things so show my general approach
