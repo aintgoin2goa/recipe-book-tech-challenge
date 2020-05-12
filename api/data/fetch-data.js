@@ -13,4 +13,16 @@ const fetchData = () => {
     return data[name];
 }
 
-module.exports = fetchData;
+const fetchAllRecipes = async () => {
+    return fetchData();
+}
+
+const fetchRecipeById = async (id) => {
+    const recipes = await fetchAllRecipes();
+    return recipes.recipes.find(r => r.id === id);
+}
+
+module.exports = {
+    fetchAllRecipes,
+    fetchRecipeById
+};
