@@ -1,0 +1,95 @@
+---
+	swagger: "2.0"
+	info:
+	  description: Recipe API
+	  version: 1.0.0
+	  title: Recipe Challenge API
+	host: virtserver.swaggerhub.com
+	basePath: /aintgoin2goa/RecipeChallenge/1.0.0
+	schemes:
+	- https
+	- http
+	paths:
+	  /recipes:
+		get:
+		  summary: get all recipes
+		  operationId: getAllRecipes
+		  produces:
+		  - application/json
+		  parameters: []
+		  responses:
+			"200":
+			  description: Returns all recipes
+			  schema:
+				$ref: '#/definitions/inline_response_200'
+	  /recipes/{id}:
+		get:
+		  summary: get recipe by id
+		  operationId: getRecipe
+		  produces:
+		  - application/json
+		  parameters:
+		  - name: id
+			in: path
+			required: true
+			type: string
+		  responses:
+			"200":
+			  description: returns recipe
+			  schema:
+				$ref: '#/definitions/inline_response_200_1'
+			"404":
+			  description: no recipe found for that id
+			  schema:
+				$ref: '#/definitions/Error'
+	definitions:
+	  Recipe:
+		type: object
+		required:
+		- id
+		- name
+		properties:
+		  id:
+			type: string
+			example: lemon-chicken
+		  name:
+			type: string
+			example: Lemon Chicken
+		  image:
+			type: string
+			example: http://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/lemonchicken_11654_16x9.jpg
+		  ingredients:
+			type: array
+			items:
+			  $ref: '#/definitions/Ingredient'
+	  Ingredient:
+		type: object
+		properties:
+		  name:
+			type: string
+			example: Chicken breast
+		  quantity:
+			type: number
+			example: 1.0
+		  measurement:
+			type: string
+			example: x
+	  Error:
+		type: object
+		properties:
+		  error:
+			type: string
+			example: This is an example error message
+	  inline_response_200:
+		type: object
+		properties:
+		  recipes:
+			type: array
+			items:
+			  $ref: '#/definitions/Recipe'
+	  inline_response_200_1:
+		type: object
+		properties:
+		  recipe:
+			$ref: '#/definitions/Recipe'
+	

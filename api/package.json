@@ -1,18 +1,9 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.16.4"
-  },
-  "scripts": {
-    "start": "nodemon ./server.js",
-    "test": "mocha **/**.test.js **.test.js --exit"
-  },
+  "main": "index.js",
+  "license": "MIT",
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^5.2.0",
-    "nodemon": "^1.18.6",
-    "supertest": "^3.3.0"
+    "parcel-bundler": "^1.12.4"
   }
 }
