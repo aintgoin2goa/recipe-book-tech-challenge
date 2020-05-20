@@ -2,12 +2,14 @@ version: "3.5"
 
 services:
   dynamodb:
+    container_name: dynamodb
     image: instructure/dynamo-local-admin
     ports:
       - "8000:8000"
     networks:
       - rbtt
   api:
+    container_name: api
     image: node:12.16.3-alpine3.10
     command: sh -c "yarn && yarn start"
     working_dir: /home/node/app

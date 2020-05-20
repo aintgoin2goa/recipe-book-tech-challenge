@@ -9,7 +9,7 @@ docker run -it --rm \
 --network rbtt \
 -w /usr/app/seed  \
 -v $(pwd)/scripts/seed:/usr/app/seed \
--v $(pwd)/api/test/fixtures:/usr/app/seed/data \
+-v $(pwd)/mocks/data:/usr/app/seed/data \
 -v  ~/.aws:/root/.aws \
 -e SEED=$SEED \
 node:alpine\
