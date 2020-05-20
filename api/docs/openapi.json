@@ -13,7 +13,7 @@
       "get": {
         "summary": "get all recipes",
         "operationId": "getAllRecipes",
-        "produces": ["application/json"],
+        "produces": ["application/json; charset=utf-8"],
         "parameters": [],
         "responses": {
           "200": {
@@ -73,6 +73,10 @@
           "type": "string",
           "example": "http://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/lemonchicken_11654_16x9.jpg"
         },
+        "cookingTime": {
+          "type": "string",
+          "example": "30 mins"
+        },
         "ingredients": {
           "type": "array",
           "items": {
@@ -85,8 +89,7 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string",
-          "example": "Chicken breast"
+          "type": "string"
         },
         "quantity": {
           "type": "number",

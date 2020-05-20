@@ -1,0 +1,75 @@
+{
+    "recipes": [
+        {
+            "id": "lemon-chicken",
+            "name": "Lemon Chicken",
+            "imageUrl": "http://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/lemonchicken_11654_16x9.jpg",
+            "ingredients": [
+                {
+                    "ingredient": "Chicken Breasts",
+                    "quantity": 4
+                },
+                {
+                    "ingredient": "Lemon",
+                    "quantity": 1
+                },
+                {
+                    "ingredient": "Thyme",
+                    "quantity": 1,
+                    "measurement": " tsp"
+                }
+            ],
+            "cookingTime": "30 minutes"
+        },
+        {
+            "id": "beef-stroganoff",
+            "name": "Beef Stroganoff",
+            "imageUrl": "http://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/beefstroganoffwithsa_89439_16x9.jpg",
+            "ingredients": [
+                {
+                    "ingredient": "Beef",
+                    "quantity": 500,
+                    "measurement": "g"
+                },
+                {
+                    "ingredient": "Mustard",
+                    "quantity": 1,
+                    "measurement": " tsp"
+                },
+                {
+                    "ingredient": "Mushrooms",
+                    "quantity": 15
+                }
+            ],
+            "cookingTime": "30 minutes"
+        },
+        {
+            "id": "chicken-ceasar-salad",
+            "name": "Chicken Caesar Salad",
+            "imageUrl": "http://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/chickencaesarsalad_84099_16x9.jpg",
+            "ingredients": [
+                {
+                    "ingredient": "Lettuce",
+                    "quantity": 1,
+                    "measurement": " bag"
+                },
+                {
+                    "ingredient": "Chicken",
+                    "quantity": 500,
+                    "measurement": "g"
+                },
+                {
+                    "ingredient": "Parmesan",
+                    "quantity": 1,
+                    "measurement": " cup"
+                },
+                {
+                    "ingredient": "Croutons",
+                    "quantity": 1,
+                    "measurement": " handful"
+                }
+            ],
+            "cookingTime": "25 minutes"
+        }
+    ]
+}

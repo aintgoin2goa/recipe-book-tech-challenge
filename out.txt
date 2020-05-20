@@ -1,0 +1,1560 @@
+scripts/seed.sh 
+[?25l[[90m..................[0m] | rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 37e608b9fe33efe[0m[K[[90m..................[0m] - preinstall:seed: [7msill[0m [35minstall[0m runPreinstallTopLevelLifec[0m[K[[7m [27m[90m.................[0m] | preinstall:seed: [32minfo[0m [35mlifecycle[0m seed@1.0.0~preinstall: s[0m[K[[7m [27m[90m.................[0m] | preinstall:seed: [32minfo[0m [35mlifecycle[0m seed@1.0.0~preinstall: s[0m[K[[7m [27m[90m.................[0m] | preinstall:seed: [32minfo[0m [35mlifecycle[0m seed@1.0.0~preinstall: s[0m[K[[7m [27m[90m.................[0m] | preinstall:seed: [32minfo[0m [35mlifecycle[0m seed@1.0.0~preinstall: s[0m[K[[7m [27m[90m.................[0m] / loadIdealTree:loadAllDepsIntoIdealTree: [7msill[0m [35minstall[0m loa[0m[K[[7m   [27m[90m...............[0m] \ loadDep:querystring: [7msill[0m [35minstall[0m loadAllDepsIntoIdealTr[0m[K[[7m       [27m[90m...........[0m] - postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m         [27m[90m.........[0m] - prepare:seed: [32minfo[0m [35mlifecycle[0m seed@1.0.0~prepare: seed@1.[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m seed@1.0.0 No description
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m seed@1.0.0 No repository field.
+[0m
+[?25l[[7m         [27m[90m.........[0m] / prepare:seed: [30;43mWARN[0m seed@1.0.0 No repository field.[0m[K[[7m         [27m[90m.........[0m] / prepare:seed: [30;43mWARN[0m seed@1.0.0 No repository field.[0m[K[[7m         [27m[90m.........[0m] / prepare:seed: [30;43mWARN[0m seed@1.0.0 No repository field.[0m[K[[7m         [27m[90m.........[0m] / prepare:seed: [30;43mWARN[0m seed@1.0.0 No repository field.[0m[K[[7m         [27m[90m.........[0m] / prepare:seed: [30;43mWARN[0m seed@1.0.0 No repository field.[0m[K[K[?25haudited 14 packages in 0.854s
+found [92m0[0m vulnerabilities
+
+[?25l[[7m         [27m[90m.........[0m] | prepare:seed: [32;40mtiming[0m [35maudit body[0m Completed in 1ms[0m[K[K[?25hdeleting table recipes
+Table deleted
+Created table recipes
+{
+  Item: {
+    id: [32m'lemon-chicken'[39m,
+    name: [32m'Lemon Chicken'[39m,
+    imageUrl: [32m'http://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/lemonchicken_11654_16x9.jpg'[39m,
+    ingredients: [ [36m[Object][39m, [36m[Object][39m, [36m[Object][39m ],
+    cookingTime: [32m'30 minutes'[39m
+  }
+}
+MultipleValidationErrors: There were 124 validation errors:
+* InvalidParameterType: Expected params.Item['id'] to be a structure
+* UnexpectedParameter: Unexpected key '0' found in params.Item['id']
+* UnexpectedParameter: Unexpected key '1' found in params.Item['id']
+* UnexpectedParameter: Unexpected key '2' found in params.Item['id']
+* UnexpectedParameter: Unexpected key '3' found in params.Item['id']
+* UnexpectedParameter: Unexpected key '4' found in params.Item['id']
+* UnexpectedParameter: Unexpected key '5' found in params.Item['id']
+* UnexpectedParameter: Unexpected key '6' found in params.Item['id']
+* UnexpectedParameter: Unexpected key '7' found in params.Item['id']
+* UnexpectedParameter: Unexpected key '8' found in params.Item['id']
+* UnexpectedParameter: Unexpected key '9' found in params.Item['id']
+* UnexpectedParameter: Unexpected key '10' found in params.Item['id']
+* UnexpectedParameter: Unexpected key '11' found in params.Item['id']
+* UnexpectedParameter: Unexpected key '12' found in params.Item['id']
+* InvalidParameterType: Expected params.Item['name'] to be a structure
+* UnexpectedParameter: Unexpected key '0' found in params.Item['name']
+* UnexpectedParameter: Unexpected key '1' found in params.Item['name']
+* UnexpectedParameter: Unexpected key '2' found in params.Item['name']
+* UnexpectedParameter: Unexpected key '3' found in params.Item['name']
+* UnexpectedParameter: Unexpected key '4' found in params.Item['name']
+* UnexpectedParameter: Unexpected key '5' found in params.Item['name']
+* UnexpectedParameter: Unexpected key '6' found in params.Item['name']
+* UnexpectedParameter: Unexpected key '7' found in params.Item['name']
+* UnexpectedParameter: Unexpected key '8' found in params.Item['name']
+* UnexpectedParameter: Unexpected key '9' found in params.Item['name']
+* UnexpectedParameter: Unexpected key '10' found in params.Item['name']
+* UnexpectedParameter: Unexpected key '11' found in params.Item['name']
+* UnexpectedParameter: Unexpected key '12' found in params.Item['name']
+* InvalidParameterType: Expected params.Item['imageUrl'] to be a structure
+* UnexpectedParameter: Unexpected key '0' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '1' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '2' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '3' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '4' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '5' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '6' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '7' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '8' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '9' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '10' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '11' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '12' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '13' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '14' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '15' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '16' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '17' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '18' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '19' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '20' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '21' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '22' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '23' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '24' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '25' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '26' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '27' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '28' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '29' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '30' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '31' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '32' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '33' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '34' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '35' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '36' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '37' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '38' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '39' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '40' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '41' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '42' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '43' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '44' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '45' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '46' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '47' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '48' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '49' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '50' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '51' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '52' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '53' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '54' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '55' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '56' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '57' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '58' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '59' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '60' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '61' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '62' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '63' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '64' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '65' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '66' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '67' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '68' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '69' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '70' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '71' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '72' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '73' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '74' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '75' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '76' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '77' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '78' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '79' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '80' found in params.Item['imageUrl']
+* UnexpectedParameter: Unexpected key '0' found in params.Item['ingredients']
+* UnexpectedParameter: Unexpected key '1' found in params.Item['ingredients']
+* UnexpectedParameter: Unexpected key '2' found in params.Item['ingredients']
+* InvalidParameterType: Expected params.Item['cookingTime'] to be a structure
+* UnexpectedParameter: Unexpected key '0' found in params.Item['cookingTime']
+* UnexpectedParameter: Unexpected key '1' found in params.Item['cookingTime']
+* UnexpectedParameter: Unexpected key '2' found in params.Item['cookingTime']
+* UnexpectedParameter: Unexpected key '3' found in params.Item['cookingTime']
+* UnexpectedParameter: Unexpected key '4' found in params.Item['cookingTime']
+* UnexpectedParameter: Unexpected key '5' found in params.Item['cookingTime']
+* UnexpectedParameter: Unexpected key '6' found in params.Item['cookingTime']
+* UnexpectedParameter: Unexpected key '7' found in params.Item['cookingTime']
+* UnexpectedParameter: Unexpected key '8' found in params.Item['cookingTime']
+* UnexpectedParameter: Unexpected key '9' found in params.Item['cookingTime']
+    at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:40:28)
+    at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+    at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20)
+    at callNextListener (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:96:12)
+    at /usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:86:9
+    at finish (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/config.js:379:7)
+    at /usr/app/seed/node_modules/[4maws-sdk[24m/lib/config.js:397:9
+    at SharedIniFileCredentials.get (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/credentials.js:127:7)
+    at getAsyncCredentials (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/config.js:391:24)
+    at Config.getCredentials (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/config.js:411:9) {
+  code: [32m'MultipleValidationErrors'[39m,
+  errors: [
+    InvalidParameterType: Expected params.Item['id'] to be a structure
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateType (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:232:10)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:54:10)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42) {
+      code: [32m'InvalidParameterType'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '0' found in params.Item['id']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '1' found in params.Item['id']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '2' found in params.Item['id']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '3' found in params.Item['id']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '4' found in params.Item['id']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '5' found in params.Item['id']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '6' found in params.Item['id']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '7' found in params.Item['id']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '8' found in params.Item['id']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '9' found in params.Item['id']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '10' found in params.Item['id']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '11' found in params.Item['id']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '12' found in params.Item['id']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    InvalidParameterType: Expected params.Item['name'] to be a structure
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateType (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:232:10)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:54:10)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42) {
+      code: [32m'InvalidParameterType'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '0' found in params.Item['name']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '1' found in params.Item['name']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '2' found in params.Item['name']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '3' found in params.Item['name']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '4' found in params.Item['name']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '5' found in params.Item['name']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '6' found in params.Item['name']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '7' found in params.Item['name']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '8' found in params.Item['name']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '9' found in params.Item['name']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '10' found in params.Item['name']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '11' found in params.Item['name']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    UnexpectedParameter: Unexpected key '12' found in params.Item['name']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.267Z[39m
+    },
+    InvalidParameterType: Expected params.Item['imageUrl'] to be a structure
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateType (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:232:10)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:54:10)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42) {
+      code: [32m'InvalidParameterType'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '0' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '1' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '2' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '3' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '4' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '5' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '6' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '7' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '8' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '9' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '10' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '11' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '12' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '13' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '14' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '15' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '16' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '17' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '18' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '19' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '20' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '21' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '22' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '23' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '24' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '25' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '26' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '27' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '28' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '29' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.268Z[39m
+    },
+    UnexpectedParameter: Unexpected key '30' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '31' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '32' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '33' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '34' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '35' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '36' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '37' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '38' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '39' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '40' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '41' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '42' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '43' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '44' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '45' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '46' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '47' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '48' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '49' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '50' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '51' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '52' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '53' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '54' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '55' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '56' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '57' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '58' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '59' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '60' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '61' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '62' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '63' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '64' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '65' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '66' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '67' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '68' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.269Z[39m
+    },
+    UnexpectedParameter: Unexpected key '69' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.270Z[39m
+    },
+    UnexpectedParameter: Unexpected key '70' found in params.Item['imageUrl']
+        at ParamValidator.fail (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:50:37)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:77:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validateMap (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:117:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:92:21)
+        at ParamValidator.validateStructure (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:75:14)
+        at ParamValidator.validateMember (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:88:21)
+        at ParamValidator.validate (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/param_validator.js:34:10)
+        at Request.VALIDATE_PARAMETERS (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/event_listeners.js:126:42)
+        at Request.callListeners (/usr/app/seed/node_modules/[4maws-sdk[24m/lib/sequential_executor.js:106:20) {
+      code: [32m'UnexpectedParameter'[39m,
+      time: [35m2020-05-20T09:48:25.270Z[39m
+    },
+    ... 24 more items
+  ],
+  time: [35m2020-05-20T09:48:25.271Z[39m
+}

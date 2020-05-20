@@ -4,17 +4,21 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@types/koa": "^2.11.3",
+    "@types/koa-router": "^7.4.0",
     "@types/koa-static": "^4.0.1",
+    "@types/node": "^14.0.1",
     "dredd": "^13.1.1",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.9.2"
   },
   "dependencies": {
     "koa": "^2.11.0",
+    "koa-router": "^8.0.8",
     "koa-static": "^5.0.0"
   },
   "scripts": {
-    "start": "ts-node-dev main.ts",
-    "test:contract": "dredd http://localhost:8080/openapi.json http://localhost:8080"
+    "start": "ts-node-dev src/main.ts",
+    "test:smoke": "dredd http://localhost:8080/openapi.json http://localhost:8080"
   }
 }
