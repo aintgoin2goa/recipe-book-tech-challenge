@@ -17,6 +17,8 @@ services:
       - ./api:/home/node/app
     environment:
       PORT: 8181
+      AWS_REGION: eu-west-1
+      DYNANO_ENDPOINT: http://dynamodb:8000
     expose:
       - "8181"
     ports:
